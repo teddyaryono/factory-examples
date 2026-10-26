@@ -5,15 +5,15 @@ description: >-
   Slack, Linear, and GitHub; triage; optional spec; implementation;
   adversarial review; a human merge. A custom agent builds the iOS app on
   macOS.
-alias: Acme
+alias: TeddyFactory1
 credentialStrategy: EXECUTOR
 repositories:
-  - owner: acme
-    name: api-service
-  - owner: acme
-    name: webapp
-  - owner: acme
-    name: ios-app
+  - owner: teddyaryono
+    name: bodhi-lang
+  - owner: teddyaryono
+    name: aidlc-workflows
+  - owner: teddyaryono
+    name: test-tracker
 integrations:
   - type: slack
   - type: linear
